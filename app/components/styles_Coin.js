@@ -1,0 +1,81 @@
+import { StyleSheet, Platform } from 'react-native';
+
+export const styles = StyleSheet.create({
+  flex: { flexDirection: 'row', justifyContent: 'flex-start' },
+  text: {
+    paddingTop: 8,
+    fontSize: 17,
+    fontWeight: '400',
+    lineHeight: 24,
+    textAlign: 'left',
+    color: '#B5B5BE',
+    fontFamily: 'Hellix-Regular',
+  },
+  imageProduct: { width: '100%', height: 103, marginLeft: -0.5 },
+  insuff: { paddingTop: 18, paddingLeft: 16 },
+  textInsuff: { width: 20, height: 20, marginRight: 7 },
+  textTitle: {
+    color: '#171725',
+    fontSize: 20,
+    fontFamily: 'Hellix-Regular',
+    fontWeight: '400',
+    lineHeight: 24,
+    paddingBottom: 26,
+  },
+  textLink: {
+    lineHeight: 46,
+    fontWeight: '400',
+    fontStyle: 'normal',
+    fontSize: 16,
+    color: '#0062FF',
+    fontFamily: 'Hellix-Regular',
+  },
+  textButton: {
+    color: 'white',
+    textAlign: 'center',
+    textAlignVertical: 'center',
+    fontSize: 18,
+    fontWeight: '600',
+  },
+  textCoin: {
+    fontWeight: '500',
+    fontSize: 17,
+    color: '#0062FF',
+    fontFamily: 'Hellix-Bold',
+  },
+  textCoinBold: {
+    fontWeight: '500',
+    fontSize: 17,
+    color: '#696974',
+    fontFamily: 'Hellix-Bold',
+  },
+  textCoinDes: {
+    color: '#92929D',
+    lineHeight: 24,
+    textAlignVertical: 'center',
+    fontSize: 16,
+    paddingTop: 8,
+    width: '90%',
+    fontFamily: 'Hellix-Regular',
+  },
+
+  productWrapper: {
+    width: 210,
+    height: 240,
+    marginRight: 24,
+    backgroundColor: 'white',
+    borderRadius: 4,
+    borderColor: '#F1F1F5',
+    borderWidth: 1,
+    shadowOffset: {
+      width: 0,
+      height: 0.1,
+    },
+    shadowOpacity: 0.1,
+    shadowRadius: 1,
+  },
+  categoryWrapper: {
+    marginTop: 40,
+    marginLeft: 16,
+  },
+});
